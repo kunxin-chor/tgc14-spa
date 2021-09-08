@@ -1,0 +1,40 @@
+.page {
+    height: 100vh;
+    box-sizing: border-box; /* box-sizing controls whether the margin and padding are considered to be 
+      part of the element width */
+    position: absolute;
+}
+
+#page-1 {
+    background-color: aliceblue;
+    width: 100%
+}
+
+#page-2 {
+    background-color: blanchedalmond;
+    width: 100%
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#page-3 {
+    background-color: cornsilk;
+    width: 100%;
+}
+
+.hidden {
+    transition: transform 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    transition: transform 1s;
+    transform: translateX(0);
+}
+
+#all-pages {
+    position: relative;
+}
